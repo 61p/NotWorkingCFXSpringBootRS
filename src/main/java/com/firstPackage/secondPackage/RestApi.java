@@ -19,7 +19,7 @@ public class RestApi {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public Response.ResponseBuilder helloAPI(){
-        return Response.ok("WOWO YEYE");
+    public String helloAPI(){
+        return "WOWO YEYE";
     }
 }

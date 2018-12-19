@@ -9,6 +9,8 @@ public class StarterPoint {
 
     public static void main(String[] args) {
         SpringApplication.run(StarterPoint.class,args);
+
+
     }
 
 }
